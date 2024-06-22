@@ -1,0 +1,431 @@
+/*container*/
+.container {
+    padding: 20px;
+  }
+  
+  .navcal {
+    background-color: #333; /* Cambia el color de fondo del menú según sea necesario */
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #555; /* Cambia el color de fondo del enlace según sea necesario */
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #777; /* Cambia el color de fondo al pasar el ratón sobre el enlace */
+  }
+  
+  .btn-secondary {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #6c757d; /* Cambia el color de fondo del botón según sea necesario */
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #495057; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .row {
+    margin-top: 20px;
+    background-color: #bfbfbf;
+    /* width: 70%; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    padding: 10px 20px;
+    background-color: #007bff; /* Cambia el color de fondo del botón según sea necesario */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+  }
+
+/*////////////////////////////*/
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+  }
+  body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(kol.jpg);
+    background-size: cover;
+    background-position: center;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around;*/
+}
+  
+  .wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: #bfbfbf;
+  }
+  /*este es el menu*/
+
+
+  .menuLateral{
+    position: fixed;
+    /* width: 200px; */
+    height: 15rem;
+    background-color: rgb(94 87 87 / 70%);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    padding-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  .menuLateral ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .menuLateral a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .menuLateral a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Cambia el color al pasar el ratón */
+  }
+
+
+
+
+
+
+
+  /*//////////////////////////////////////*/
+  h1 {
+    color: #000000;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  h3 {
+    margin: 2% 0;
+    text-align: center;
+  }
+  
+  .menu {
+    margin-bottom: 2%;
+  }
+  
+  .menu a {
+    font-weight: bold;
+    margin-right: 1%;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-primary {
+    background-color: #26de81;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .btn-primary:hover {
+    background-color: #20bf6b;
+  }
+  
+  .btn-secondary {
+    background-color: #778ca3;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  .btn-secondary:hover {
+    background-color: #4b6584;
+  }
+  
+  .btn-lg {
+    width: 50%;
+  }
+  
+  .tbl-full {
+    width: 100%;
+  }
+  
+  table tr th {
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 1%;
+    padding-top: 3%;
+  }
+  
+  table tr td {
+    padding: 1%;
+  }
+  
+  .tbl-half {
+    width: 40%;
+  }
+  
+  
+  /*menu calendario*/
+
+  .navcal {
+    background-color: #333; /* Cambia el color de fondo del menú según sea necesario */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #555; /* Cambia el color de fondo del enlace según sea necesario */
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #777; /* Cambia el color de fondo al pasar el ratón sobre el enlace */
+  }
+
+  /**/
+
+  
+  /*estilo formulario*/
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .formularios {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333; /* Cambia el color de fondo del botón según sea necesario */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+  }
+
+  .btn-centrado {
+    display: block;
+    margin: 0 auto; /* Esto centrará el botón horizontalmente */
+    padding: 10px 20px;
+    background-color: #6c757d; /* Cambia el color de fondo del botón según sea necesario */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .btn-centrado:hover {
+    background-color: #495057; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+  }
+  /*//////////////////////////////////*/
+
+  /*navegador estilo*/
+
+  .conNav {
+    background-color: #333; /* Cambia el color de fondo del menú según sea necesario */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .navega {
+    display: inline-block;
+  }
+  
+  .navega a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #555; /* Cambia el color de fondo del enlace según sea necesario */
+  }
+  
+  .navega a:hover {
+    background-color: #777; /* Cambia el color de fondo al pasar el ratón sobre el enlace */
+  }
+
+  /*//////////////////////////////////*/
+
+/*Estilo de la lista*/
+.listas {
+    padding: 20px;
+  }
+  
+  .all-lists {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn {
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .btn-dark:hover {
+    background-color: #555;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .btn-success,
+  .btn-danger {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-success {
+    background-color: #5cb85c;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  .btn-success:hover,
+  .btn-danger:hover {
+    background-color: #4cae4c;
+  }
+/*////////////////////////////////*/
+
